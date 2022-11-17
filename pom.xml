@@ -61,4 +61,11 @@
     <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
 	
+  <distributionManagement>
+    <repository>
+	<id>my-demo-feed-for-Org</id>
+	<name>My Azure Internal Repository</name>
+	<url>https://pkgs.dev.azure.com/Suchkan/_packaging/my-demo-feed-for-Org/maven/v1</url>
+    </repository>
+  </distributionManagement>
 </project>
