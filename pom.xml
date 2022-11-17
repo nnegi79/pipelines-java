@@ -63,9 +63,9 @@
 	
   <distributionManagement>
     <repository>
-	<id>my-demo-feed-for-Org</id>
+	<id>My-demo-Feed</id>
 	<name>My Azure Internal Repository</name>
-	<url>https://pkgs.dev.azure.com/Suchkan/_packaging/my-demo-feed-for-Org/maven/v1</url>
+	 <url>https://pkgs.dev.azure.com/Suchkan/My-Demo-Project/_packaging/My-demo-Feed/maven/v1</url>
     </repository>
   </distributionManagement>
 </project>
