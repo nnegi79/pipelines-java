@@ -10,7 +10,7 @@
 
 <repositories>
 	<repository>
-  		<id>My-demo-Feed</id>
+  		<id>my-second-feed</id>
  		 <url>https://pkgs.dev.azure.com/Suchkan/My-Demo-Project/_packaging/My-demo-Feed/maven/v1</url>
   		<releases>
 	    	<enabled>true</enabled>
@@ -63,7 +63,7 @@
 	
   <distributionManagement>
     <repository>
-	<id>My-demo-Feed</id>
+	<id>my-second-feed</id>
 	<name>My Azure Internal Repository</name>
 	 <url>https://pkgs.dev.azure.com/Suchkan/My-Demo-Project/_packaging/My-demo-Feed/maven/v1</url>
     </repository>
