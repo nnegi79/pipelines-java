@@ -9,7 +9,15 @@ trigger:
 pool:
   vmImage: macos-latest
 
+
+
 steps:
+
+- task: MavenAuthenticate@0
+  displayName: 'Maven Authenticate'
+  inputs:
+    artifactsFeeds: My-demo-Feed
+
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
