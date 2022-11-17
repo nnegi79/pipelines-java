@@ -8,6 +8,17 @@
   <name>Hello world sample web app</name>
   <url>http://maven.apache.org</url>
 
+<repository>
+  <id>My-demo-Feed</id>
+  <url>https://pkgs.dev.azure.com/Suchkan/My-Demo-Project/_packaging/My-demo-Feed/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
+	
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
