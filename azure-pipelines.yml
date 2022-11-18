@@ -16,7 +16,7 @@ steps:
 - task: MavenAuthenticate@0
   displayName: 'Maven Authenticate'
   inputs:
-    artifactsFeeds: my-second-feed
+    artifactsFeeds: My-demo-Feed
 
 - task: Maven@3
   inputs:
