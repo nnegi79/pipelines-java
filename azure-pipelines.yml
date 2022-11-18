@@ -38,12 +38,6 @@ steps:
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: package install deploy
 
-- task: Bash@3
-  inputs:
-    targetType: 'inline'
-    script: |
-      # Write your commands here
-      mvn verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=nnegi79_pipelines-java
 
 - task: PublishCodeCoverageResults@1
   inputs:
