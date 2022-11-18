@@ -18,6 +18,14 @@ steps:
   inputs:
     artifactsFeeds: My-demo-Feed
 
+- task: SonarCloudPrepare@1
+  inputs:
+    SonarCloud: 'sonar-cloud-sp'
+    organization: 'suchkan'
+    scannerMode: 'Other'
+    projectKey: 'Suchkan_pipelines-java.git'
+    projectName: 'pipelines-java.git'
+
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
