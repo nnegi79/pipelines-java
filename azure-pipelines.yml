@@ -53,7 +53,7 @@ steps:
     checkCoverage: true
     coverageFailOption: 'fixed'
     coverageType: 'lines'
-    coverageThreshold: '100'
+    coverageThreshold: '70'
     
 - task: SonarCloudPublish@1
   inputs:
