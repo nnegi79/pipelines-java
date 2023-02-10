@@ -31,11 +31,6 @@ steps:
     projectKey: 'nnegi79_pipelines-java'
     projectName: 'pipelines-java.git'
 
-- task: Cache@2
-  inputs:
-    key: 'gradle-cache'
-    path: '$(System.DefaultWorkingDirectory)/.gradle/caches/modules-2/files-2.1'
-
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
